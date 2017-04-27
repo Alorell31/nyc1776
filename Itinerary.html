@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>checked demo</title>
+  <style>
+  input, label {
+    line-height: 1.5em;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<form>
+  <div>
+    <input type="radio" name="fruit" value="Fort Washington 125 PineHurst Ave" id="orange">
+    <label for="orange">Fort Washington</label>
+  </div>
+  <div>
+    <input type="radio" name="fruit" value="apple" id="apple">
+    <label for="apple">apple</label>
+  </div>
+  <div>
+    <input type="radio" name="fruit" value="banana" id="banana">
+    <label for="banana">banana</label>
+  </div>
+  <div id="log"></div>
+</form>
+ 
+<script>
+$( "input" ).on( "click", function() {
+  $( "#log" ).html( $( "input:checked" ).val() + " is checked!" );
+});
+</script>
+ 
+</body>
+</html>
+
+Click on Div 1st hover effect permanent then addn or Add to Modal.
