@@ -3,7 +3,14 @@ body {
      background-image: url("../img/Backgroun_image1.png");
       background: rgba(255, 255, 255,);
      background-size:cover;
+   margin-left: 20px;
+    margin-right: 20px;
+    
         }
+.main{
+    width:90%;
+    margin:auto;
+}
 
 .als {font-family: 'Almendra', serif;}
 .sc {font-family: 'Almendra SC', serif;}
@@ -12,8 +19,9 @@ body {
     text-shadow: -2px -2px #105de2;
     font-weight: 900;   
 }
-
-
+.textColorBlue {
+    color: #105de2;
+}
 .border {
     margin-left: 2px;
     margin-right: 2px;
@@ -26,17 +34,11 @@ clip-path: polygon(0 6%, 6% 6%, 6% 0, 94% 0, 94% 6%, 100% 6%, 100% 94%, 94% 94%,
   
 }
 
-
-body { 
-     background-image: url("../img/Backgroun_image1.png");
-      background: rgba(255, 255, 255,);
-     background-size:cover;
-        }
-
 .container2{
     display: flex;
     justify-content: center;
 }
+
 
 
 .textcopy{
@@ -45,8 +47,6 @@ body {
         padding: 20px;
         
     }   
-
-
 
 .navbar-default { 
     display: flex;
@@ -141,7 +141,7 @@ background-color: #75bdea;
 }
 
 @media (max-width: 991px) {
-    .mobile-only {
+    #mobile-only {
          display:none !important;
     }
   
@@ -149,7 +149,7 @@ background-color: #75bdea;
      .carousel { margin-top:13px;
     }
     
-    @media only screen and (max-width: 766px){.navbar .navbar-collapse {
+@media only screen and (max-width: 766px){.navbar .navbar-collapse {
     background-color: #105de2;
     margin-left: inherit;
    
@@ -157,29 +157,18 @@ background-color: #75bdea;
  .carousel-caption {
         top: 16%;
         transform: translateY(-50%);
-        }  
+        } 
     
-.thumb { 
-  width: 30%;
-  margin: 0 auto;
-  border: 1px solid #898989;
-  padding: .6vw;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap; 
-  flex-flow: row wrap; 
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  
+/*itinerary page css below*/   
+
+
+.row{ 
+display: flex;
+flex-wrap: wrap;
 }
-.thumb div { 
-   width: 100px; 
-  margin: .6vw; 
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto; 
-}
-.thumb div img { 
-   height: auto; 
-  width: 100%; 
-}
+
+   
+/*Fort Washington page css below*/ 
+
+  
