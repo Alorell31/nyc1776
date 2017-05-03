@@ -162,7 +162,16 @@ background-color: #75bdea;
   
 /*itinerary page css below*/   
 
-
+    #ItinModal2{
+       background-image: url("../img/Backgroun_image1.png");
+      background: rgba(255, 255, 255,);
+     background-size:cover;
+   margin-left: 20px;
+    margin-right: 20px;  
+    }
+    
+ 
+    
 .row{ 
 display: flex;
 flex-wrap: wrap;
