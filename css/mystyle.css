@@ -1,4 +1,10 @@
 
+body { 
+     background-image: url("../img/Backgroun_image1.png");
+      background: rgba(255, 255, 255,);
+     background-size:cover;
+        }
+
 .als {font-family: 'Almendra', serif;}
 .sc {font-family: 'Almendra SC', serif;}
 
@@ -23,9 +29,8 @@ clip-path: polygon(0 6%, 6% 6%, 6% 0, 94% 0, 94% 6%, 100% 6%, 100% 94%, 94% 94%,
 
 body { 
      background-image: url("../img/Backgroun_image1.png");
-      background: rgba(255, 255, 255,)
+      background: rgba(255, 255, 255,);
      background-size:cover;
-    
         }
 
 .container2{
@@ -52,9 +57,7 @@ body {
     float:none;
 }
 
-.navbar-default .navbar-brand {
-	color: #ffffff;
-}
+
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #e93100;
 }
@@ -93,6 +96,16 @@ color: #e93100;
 background-color: #75bdea;
 }
 .navbar-default .navbar-toggle {
+    margin-top: 20px;
+    margin-right: 1x;}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+    margin-right: 110px;
+    margin-top: 11px;
+    position: 
+}
+    
 border-color: #105de2;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -104,6 +117,8 @@ background-color: #ffffff;
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
 border-color: #ffffff;
+
+
 }
 .navbar-default .navbar-link {
 color: #ffffff;
@@ -142,4 +157,29 @@ background-color: #75bdea;
  .carousel-caption {
         top: 16%;
         transform: translateY(-50%);
-        }     
+        }  
+    
+.thumb { 
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #898989;
+  padding: .6vw;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.thumb div { 
+   width: 100px; 
+  margin: .6vw; 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+}
+.thumb div img { 
+   height: auto; 
+  width: 100%; 
+}
