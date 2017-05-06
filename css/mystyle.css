@@ -140,7 +140,7 @@ background-color: #75bdea;
 }
 }
 
-@media (max-width: 991px) {
+@media (max-width:776px) {
     #mobile-only {
          display:none !important;
     }
