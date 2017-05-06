@@ -141,7 +141,7 @@ background-color: #75bdea;
 }
 
 @media (max-width:776px) {
-    #mobile-only {
+    .mobile-only {
          display:none !important;
     }
   
